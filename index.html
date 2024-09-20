@@ -15,36 +15,22 @@
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-md bg-body py-3"
-      style="border-bottom: 1px solid;
-      "
-    >
+    <nav class="navbar navbar-expand-md bg-body py-3 fixed-top" style="border-bottom: 1px solid">
       <div class="container">
-        <button
-          data-bs-toggle="collapse"
-          class="navbar-toggler"
-          data-bs-target="#navcol-3"
-        >
-          <span class="visually-hidden">Toggle navigation</span
-          ><span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcol-3"></button>
+          <span class="visually-hidden">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navcol-3">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" data-bss-hover-animate="pulse" href="#home"
-                >HOME</a
-              >
+              <a class="nav-link" data-bss-hover-animate="pulse" href="#home">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bss-hover-animate="pulse" href="#projects"
-                >PROJECTS</a
-              >
+              <a class="nav-link" data-bss-hover-animate="pulse" href="#projects">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bss-hover-animate="pulse" href="#hobbies"
-                >HOBBIES</a
-              >
+              <a class="nav-link" data-bss-hover-animate="pulse" href="#hobbies">HOBBIES</a>
             </li>
           </ul>
         </div>
@@ -67,11 +53,11 @@
             >
               <br /><span style="color: rgb(19, 18, 17)"
                 >Welcome to My Portfolio!</span
-              ><br /><br />
+              ><br />
             </h1>
-            <p class="my-3" style="background: var(--bs-body-bg)">
-              <br /><span style="color: rgb(19, 18, 17); font-size: large;"
-                >Hey there! I'm Ralph Vincent Rodriguez, a second-year Computer
+            <p  style="background: var(--bs-body-bg)">
+              <br /><span style="color: rgb(19, 18, 17); font-size: large"
+                >Hey there! I'm Ralph Vincent Rodriguez, a third-year Computer
                 Science student passionate about web development. Explore my
                 projects and journey as I dive into the world of coding. Let's
                 connect and create something awesome together!</span
@@ -95,11 +81,10 @@
         <div class="col-md-6">
           <div class="p-xl-5 m-xl-5">
             <img
-              class="rounded img-fluid w-100 fit-cover"
+              class="rounded img-fluid w-100 fit-cover rounded-circle"
               style="
                 min-height: 300px;
                 background: url('assets/img/raping.jpg');
-                
               "
               src="assets/img/raping.jpg"
             />
@@ -111,7 +96,7 @@
       <div class="row mb-5">
         <div class="col-md-8 col-xl-6 text-center mx-auto">
           <h2>MY PROJECTS</h2>
-          <p class="w-lg-50">
+          <p class="w-lg-50" style="font-size: large;">
             <br />A Collection of My Projects: Simple and Creative Beginnings<br /><br />
           </p>
         </div>
@@ -121,11 +106,16 @@
           <div class="card">
             <img
               class="card-img-top w-100 d-block fit-cover"
-              style="height: 200px;"
+              style="height: 200px"
               src="assets/img/restaurant.png"
             />
             <div class="card-body p-4">
-              <p class="text-primary card-text mb-0">Project</p>
+              <a
+                class="text-primary card-text mb-0"
+                href="https://github.com/Rappykyun/Restaurant-Page"
+                style="text-decoration: none"
+                >Click Here</a
+              >
               <h4 class="card-title">Restaurant Page</h4>
               <p class="card-text">
                 This is a simple restaurant website project designed to showcase
@@ -160,7 +150,12 @@
               src="assets/img/todolist.png"
             />
             <div class="card-body p-4">
-              <p class="text-primary card-text mb-0">Project</p>
+              <a
+                class="text-primary card-text mb-0"
+                href="https://rappytodolist.netlify.app"
+                style="text-decoration: none"
+                >Click Here</a
+              >
               <h4 class="card-title">Simple Todolist</h4>
               <p class="card-text">
                 This is a basic Todo List app built to demonstrate core
@@ -195,7 +190,12 @@
               src="assets/img/weather%20app.png"
             />
             <div class="card-body p-4">
-              <p class="text-primary card-text mb-0">Project</p>
+              <a
+                class="text-primary card-text mb-0"
+                href="https://weather-app-ralph.netlify.app/"
+                style="text-decoration: none"
+                >Click Here</a
+              >
               <h4 class="card-title">Weather App</h4>
               <p class="card-text">
                 This is a simple weather app project using JavaScript and an API
@@ -236,7 +236,7 @@
       <div class="row mb-5" data-aos="fade">
         <div class="col-md-8 col-xl-6 text-center mx-auto">
           <h2>HOBBIES</h2>
-          <p class="w-lg-50">
+          <p class="w-lg-50" style="font-size: large;">
             <br />Aside from coding, my hobbies include watching movies, reading
             manga, and playing video games. I enjoy exploring different genres
             and stories through these mediums, which inspire my creativity.<br /><br />
